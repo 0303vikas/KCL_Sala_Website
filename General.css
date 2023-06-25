@@ -1,0 +1,117 @@
+
+
+/*main body*/
+
+main{margin:25px;}
+
+
+
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+
+
+h1 { 
+  text-shadow: 0 1px 0 red,
+               0 2px 0 green,
+               0 3px 0 blue,
+               0 4px 0 red,
+               0 5px 0 #aaa,
+               0 6px 0 red,
+               0 7px 0 green,
+               0 8px 0 blue,
+               0 9px 0 red,
+               0 10px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+/*js table data*/
+.polarisedtext{text-align: right;}
+
+.links:hover{
+ color:#0066FF;
+ text-decoration: none; }
+
+ .links:active{color:#FF00CC; 
+  text-decoration: none;}
+
+  
+
+/*others*/
+main .others1{
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: space-around;            
+              }
+
+main .other2{ margin-left:50px;
+              display: flex;
+              flex-flow: row wrap; }
+
+
+.pol{
+       text-decoration: none;
+       box-shadow: 1px 1px 1px 1px rgba(255,0,0,0.9), 2px 2px 2px 2px rgba(255,0,0,0.7),3px 3px 3px 3px rgba(255,0,0,0.5),4px 4px 4px 4px rgba(255,0,0,0.3);
+       margin: 30px 20px 25px 20px;
+       background-color: white;
+  }
+
+.polarised{
+      margin-top: 40px;
+      width: 400px;height: 300px;opacity: 1;
+      }
+
+.polarisedtext{ text-decoration: none;
+        text-align: center;
+        background-color: white;
+        font:30px  Courier Times Arial;
+      }
+
+
+
+
+a{
+  text-decoration: none;
+ }
+
+.polarisedtext:hover{color:white;
+                     background-color: #FF69B4;
+                  }
+
+
+#main-content{
+	width: 30%;
+	font-size:20px;
+  margin: 20px auto;
+  padding: 25px;
+  border: 1px solid #B0C4DE;
+  background:  rgb(54, 190, 241, 0.2);
+  border-radius: 0px 0px 10px 10px;
+  text-align:center;
+  line-height:1.5em;
+  color:#6c58f3;
+}
+#main-content > p > a{
+	text-decoration:none;
+	border:2px solid red;
+	background: rgb(0, 255, 0, 0.2);
+	padding:0px 20px;
+}
+#main-content > p{
+	font-size:25px;
+	margin:10px;
+}
+#main-content > p > strong{
+	font-size:25px;
+}
